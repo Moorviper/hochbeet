@@ -1,0 +1,76 @@
+sensor:
+ - platform: mqtt
+   name: "Beet1/Feuchtigkeit1"
+   unique_id: "beet1f1"
+   state_topic: "beet1/sensor4"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet1/Feuchtigkeit2"
+   unique_id: "beet1f2"
+   state_topic: "beet1/sensor5"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet1/Feuchtigkeit3"
+   unique_id: "beet1f3"
+   state_topic: "beet1/sensor6"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet1/pumpe"
+   unique_id: "beet1p"
+   state_topic: "bewaesserung/hochbeet1_pumpe"
+   unit_of_measurement: "%"
+# Beet 2
+ - platform: mqtt
+   name: "Beet2/Feuchtigkeit"
+   unique_id: "beet2f"
+   state_topic: "bewaesserung/hochbeet2_feuchtigkeit"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet2/pumpe"
+   unique_id: "beet2p"
+   state_topic: "bewaesserung/hochbeet2_pumpe"
+   unit_of_measurement: "%"
+# Beet 3
+ - platform: mqtt
+   name: "Beet3/Feuchtigkeit"
+   unique_id: "beet3f"
+   state_topic: "bewaesserung/hochbeet3_feuchtigkeit"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet3/pumpe"
+   unique_id: "beet3p"
+   state_topic: "bewaesserung/hochbeet3_pumpe"
+   unit_of_measurement: "%"
+# Beet 4
+ - platform: mqtt
+   name: "Beet4/Feuchtigkeit"
+   unique_id: "beet4f"
+   state_topic: "bewaesserung/hochbeet4_feuchtigkeit"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet4/pumpe"
+   unique_id: "beet4p"
+   state_topic: "bewaesserung/hochbeet4_pumpe"
+   unit_of_measurement: "%"
+# Beet 5
+ - platform: mqtt
+   name: "Beet5/Feuchtigkeit"
+   unique_id: "beet5f"
+   state_topic: "bewaesserung/hochbeet5_feuchtigkeit"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet5/pumpe"
+   unique_id: "beet5p"
+   state_topic: "bewaesserung/hochbeet5_pumpe"
+   unit_of_measurement: "%"
+# Beet 6
+ - platform: mqtt
+   name: "Beet6/Feuchtigkeit"
+   unique_id: "beet6f"
+   state_topic: "bewaesserung/hochbeet6_feuchtigkeit"
+   unit_of_measurement: "%"
+ - platform: mqtt
+   name: "Beet6/pumpe"
+   unique_id: "beet6p"
+   state_topic: "bewaesserung/hochbeet6_pumpe"
+   unit_of_measurement: "%"
