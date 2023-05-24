@@ -51,14 +51,10 @@ alias full='besp; flashesp; monesp;'
 
 The bridge from DAC to ADC isn't used so it isn't needed.
 
-## Wiring
-
-The bridge from DAC to ADC isn't used so it isn't needed.
-
 
 ![](https://raw.githubusercontent.com/Moorviper/hochbeet/main/notes/GrolinKomplett.png)
 
-## Spannungsteiler zur Batteriemessung
+## Voltage divider for battery measurement
 ![](https://raw.githubusercontent.com/Moorviper/hochbeet/main/notes/spannungsteiler.jpg)
 
 
