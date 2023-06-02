@@ -224,18 +224,18 @@ void one_shot(void) {
       ESP_LOGI(TAG_MQTT_ONE_SHOT, "sent publish successful, msg_id=%d", msg_id);
 
       if (config.standalone < 100) {
-        if (config.humidity[1] <= config.standalone &&
-            config.humidity[2] <= config.standalone) {
+        if (config.humidity[0] <= config.standalone &&
+            config.humidity[1] <= config.standalone) {
           printf("-------- NODE RED\n");
           run();
           vTaskDelay(pdMS_TO_TICKS(5000));
         }
       } else {
-        if (config.humidity[1] <= 40 && config.humidity[2] <= 40) {
+        //if (config.humidity[1] <= 40 && config.humidity[2] <= 40) {
           printf("-------- STAND ALONE MODE\n");
           run();
           vTaskDelay(pdMS_TO_TICKS(5000));
-        }
+        //}
       }
     }
 
