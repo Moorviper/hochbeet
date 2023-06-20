@@ -8,11 +8,11 @@ int relais_msg_id = 0;
 static const char *TAG_RELAIS = "RELAIS : ";
 
 void standaloneMode() {
-  if (config.humidity[0] <= config.pumphumidity &&
+  if (config.humidity[0] <= config.pumphumidity ||
       config.humidity[1] <= config.pumphumidity) {
     /* pumpe an  wenn Sensor 5+6 unter 40% sind */
     printf("Pumpe an\n");
-    gpio_set_level(GPIO_RELAIS, 1);
+    gpio_set_level(GPIO_RELAIS, 100);
 
     char stand[50];
     snprintf(stand, 10, "%d", config.standalone);
