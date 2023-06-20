@@ -34,7 +34,7 @@ configGeneral config = {
     "",                // mqtt adress
     0.0,               // battery
     10,                // Sleep in Minuten
-    75,                // Relais schwelle
+    59,                // Relais schwelle
 };
 // min read(trocken)   /maxread (nass)
 // configSensor sensor = {{4096,4096,4096},{0,0,0}};
